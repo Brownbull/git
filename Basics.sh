@@ -24,3 +24,6 @@ $ git commit -m "changes comment"
 # Send your changes to Bitbucket
 $ git push origin master
 $ git push -u origin master # on initial commit
+
+# clone single branch
+git clone -b mybranch --single-branch git://sub.domain.com/repo.git
